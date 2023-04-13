@@ -29,10 +29,19 @@ const newNote ={
 const newNotes = [...notes, newNote];
 setNotes(newNotes);
 }
+
+const deleteNote =(id) => {
+   const newNotes = notes.filter((note)=> note.id !== id)
+   setNotes(newNotes)
+}
   return (
   
    <div className="container">
-     <Noteslist notes={notes} handleAddNote={addNote}/>
+     <Noteslist 
+     notes={notes} 
+     handleAddNote={addNote}
+     handleDeleteNote={deleteNote}
+     />
    </div>
   )
 }
