@@ -1,16 +1,16 @@
-/* .header {
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-} */
+}
 
 .dark-mode {
   background-color: black;
 }
-/* 
+
 .dark-mode h1 {
   color: white;
-} */
+}
 
 .container {
   max-width: 960px;
@@ -73,7 +73,7 @@ textarea:focus {
   cursor: pointer;
 }
 
-/* .search {
+.search {
   display: flex;
   align-items: center;
   background-color: rgb(233, 233, 233);
@@ -90,4 +90,4 @@ textarea:focus {
 
 .search input:focus {
   outline: none;
-} */
+}
